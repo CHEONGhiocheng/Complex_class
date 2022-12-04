@@ -332,5 +332,33 @@ int main(int argc, const char * argv[]) {
     c1.getexponential();
     c1.pow_c(2);
     c1.log_c();
+    /* char op;
+     std::cout <<"Enter the first complex number" ;
+        std::cin >> c1;
+        std::cout << c1 ;
+        std::cout <<"\n Enter the second complex number";
+        std::cin >> c2;
+        std::cout << c2 ;
+        std::cout << "Your operation is: \n";
+        std::cin >> op;
+        if(op == '+'){
+            c3=c1+c2;
+            std::cout<<"After addition operator";
+            std::cout<<c3;
+        }
+        else if (op == '-'){
+            c3=c1-c2;
+            std::cout<<"After subtraction operator";
+            std::cout<<c3;
+        }
+        else if(op == '*'){
+            c3=c1*c2;
+            std::cout<<"After multiplication operator ";
+            std::cout<<c3;
+        }
+        else{
+            c3=c1/c2;
+            std::cout<<"After division operator";
+            std::cout<<c3;*/
     return 0;
 }
